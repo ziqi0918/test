@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(229, 229, 229);
+    }
+    .name{
+        color: rgb(168, 116, 116);
+        font-size: 70px;
+        position:absolute;
+        top:14cm;
+        left:17cm;
+        font-weight:bold;
+        text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        font-family: monospace;
+        
+        
+    }
+    .textlayer{
+        color:rgb(119, 99, 99);
+        font-size:54px;
+        font-family: 'Times New Roman', Times, serif;
+        position:absolute;
+        top:16cm;
+        left:9.6cm;
+        z-index: 2;
+        text-shadow:shadow1, shadow2, shadow3;
+        text-shadow: 4px 3px 0px rgb(243, 243, 243), 9px 8px 0px rgba(0, 0, 0, 0.15);
+    }
+    img.center{
+          padding-left:3.5cm;
+          padding-right: 2.5cm;
+          padding-top: 0cm;
+          border-radius: 6cm;
+    }
+    nav{
+        text-align: center;
+        background-color: rgb(98, 122, 98);
+        height: 3cm;
+    }
+    nav ul{
+        margin:auto;
+        width:610px;
+        position:absolute;
+        top:22cm;
+        left: 10cm;
+    }
+    nav li{
+        list-style:none;
+        display:inline-block;
+        position:relative;
+        font-size: 28px;
+    }
+    .topintro img{
+        border-radius: 5cm;
+        height: 250px; 
+        width: 200px;  
+        position: relative ;
+        left: 6cm; 
+        top:60px;
+    }
+    .intro{
+        text-align: left;
+        width:500;
+        position:relative;
+        left:13cm;
+        bottom:5cm;
+        font-size: 24px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .education{
+        font-size: 10mm; 
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        left:3cm;
+        top: 80cm;
+    }
+
+    .金星小學{
+        float: left;
+        position: absolute;
+        top: 43cm;
+        left: 4cm;
+        transition: transform 1s ease;
+        color:black;
+    }
+    .金星小學:hover{
+        transform: scale(1.08);
+        background-color:rgb(173, 201, 194);
+        border-radius: 3mm;
+        padding:1%;
+    }
+    .日新獨鍾{
+        float: left;
+        position: absolute;
+        top: 45cm;
+        left: 4cm;
+        transition: transform 1s ease;
+        color:black;
+    }
+    .日新獨鍾:hover{
+        transform: scale(1.08);
+        background-color:rgb(173, 196, 201);
+        border-radius: 3mm;
+        padding:1%;
+    }
+    .中原大學{
+        float: left;
+        position: absolute;
+        top: 47cm;
+        left: 4cm;
+        transition: transform 1s ease;
+        color:black;
+    }
+    .中原大學:hover{
+        transform: scale(1.08);
+        background-color:rgb(173, 196, 201);
+        border-radius: 3mm;
+        padding:1%;
+    }
+    img.kimsen{
+        position:absolute;
+        text-align: right;
+        right:8cm;
+        border-radius: 3px;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        top:42cm;
+    }
+    img.kimsen:hover{
+        transform: scale(1.08);
+        transition: transform 1s ease;
+        z-index: 3;
+    }
+    img.jitsin{
+        position:absolute;
+        text-align: right;
+        right:5cm;
+        top:42cm;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        border-radius: 3px;
+    }
+    img.jitsin:hover{
+        transform: scale(1.08);
+        transition: transform 1s ease;
+        z-index: 5;
+    }
+    img.cycu{
+        position:absolute;
+        text-align: right;
+        right:1cm;
+        border-radius: 3px;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        top:42cm;
+    }
+    img.cycu:hover{
+        transform: scale(1.08);
+        transition: transform 1s ease;
+        opacity: 1;
+        z-index: 5;
+    }
+</style>
+
+<body>
+    <img class="center" src="photobg.jpeg" alt="photobg"/> 
+    <div class="name">kiki</div>
+    <div class="textlayer">
+        Hello, welcome to my portfolio
+    </div>
+    <nav >
+        <ul class="d-flex">
+            <li><a href="#topintroduction" style="font-family: marker felt, fantasy ;">introduction</a></li>&nbsp;
+            <li><a href="#educationspace" style="font-family: marker felt, fantasy ;">education</a></li>&nbsp;
+            <li><a href="#livespace" style="font-family: marker felt, fantasy;">live</a></li>&nbsp;
+            <li><a href="#experiencespace" style="font-family: marker felt, fantasy;">experiences</a></li>&nbsp;
+            <li><a href="#backgroundspace" style="font-family: marker felt, fantasy;">background </a></li>&nbsp;
+         
+        </ul>
+    </nav>
+         <!--第一區黑塊-->
+        <section class="up" id="topintroduction">
+            
+             <!--第一區灰灰-->
+            <div class="top">
+                <div class="topintro">
+                <div>
+                    <img src="kiki.jpg"  >
+                </div>
+                <div class="intro">
+                    <p style="font-size: 30px;">| WHO AM I |</p>
+              Sim Zi Qi / 2002.9.18 / Virgo / Information Management /  <br><br>
+              2002.9.18 <br><br>
+              Virgo <br><br>
+              Information Management<br><br>
+              Malaysia<br><br>
+         </div>
+      </div>
+        <!--第二區大背景-->
+        <section class="view">
+            <!--第二區紫灰塊-->
+            <div class="content">
+                <!--education-->
+                <div class="education" id="educationspace">
+                    <p>| Education |</p>
+                </div>
+                <div>
+                    <a href="https://sites.google.com/site/jingxinghuaxiao/" target="_blank"><p style="font-size: 7mm; text-align: left; "class="金星小學">金星小學  SJK(C)Kim Sen </p></a>
+                    <a href="https://www.jitsin-ind.edu.my/" target="_blank"><p style="font-size: 7mm; text-align: left; "class="日新獨鍾"> 日新獨立中學 Jit Sin Indenpendent High School </p></a>
+                    <a href="https://www1.cycu.edu.tw/" target="_blank"><p style="font-size: 7mm; text-align: left; "class="中原大學"> 中原大學 Chung Yuan Christian University</p></a>
+                </div>
+    <div class="picschool">
+       <img class="kimsen"  src="image/kimsen.webp" width="390cm" height="300cm">
+        <img class="jitsin" src="image/jitsin.png" width="390cm">
+        <img class="cycu" src="image/cycu.jpeg" width="390cm" height="310cm">
+    </section>
+
+</body>
+</html>
