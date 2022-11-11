@@ -5,220 +5,199 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="webstyle.css">
 </head>
-<style>
-    body{
-        background-color: rgb(229, 229, 229);
-    }
-    .name{
-        color: rgb(168, 116, 116);
-        font-size: 70px;
-        position:absolute;
-        top:14cm;
-        left:17cm;
-        font-weight:bold;
-        text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
-        font-family: monospace;
-        
-        
-    }
-    .textlayer{
-        color:rgb(119, 99, 99);
-        font-size:54px;
-        font-family: 'Times New Roman', Times, serif;
-        position:absolute;
-        top:16cm;
-        left:9.6cm;
-        z-index: 2;
-        text-shadow:shadow1, shadow2, shadow3;
-        text-shadow: 4px 3px 0px rgb(243, 243, 243), 9px 8px 0px rgba(0, 0, 0, 0.15);
-    }
-    img.center{
-          padding-left:3.5cm;
-          padding-right: 2.5cm;
-          padding-top: 0cm;
-          border-radius: 6cm;
-    }
-    nav{
-        text-align: center;
-        background-color: rgb(98, 122, 98);
-        height: 3cm;
-    }
-    nav ul{
-        margin:auto;
-        width:610px;
-        position:absolute;
-        top:22cm;
-        left: 10cm;
-    }
-    nav li{
-        list-style:none;
-        display:inline-block;
-        position:relative;
-        font-size: 28px;
-    }
-    .topintro img{
-        border-radius: 5cm;
-        height: 250px; 
-        width: 200px;  
-        position: relative ;
-        left: 6cm; 
-        top:60px;
-    }
-    .intro{
-        text-align: left;
-        width:500;
-        position:relative;
-        left:13cm;
-        bottom:5cm;
-        font-size: 24px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .education{
-        font-size: 10mm; 
-        font-family: 'Times New Roman', Times, serif;
-        position: absolute;
-        left:3cm;
-        top: 80cm;
-    }
-
-    .金星小學{
-        float: left;
-        position: absolute;
-        top: 43cm;
-        left: 4cm;
-        transition: transform 1s ease;
-        color:black;
-    }
-    .金星小學:hover{
-        transform: scale(1.08);
-        background-color:rgb(173, 201, 194);
-        border-radius: 3mm;
-        padding:1%;
-    }
-    .日新獨鍾{
-        float: left;
-        position: absolute;
-        top: 45cm;
-        left: 4cm;
-        transition: transform 1s ease;
-        color:black;
-    }
-    .日新獨鍾:hover{
-        transform: scale(1.08);
-        background-color:rgb(173, 196, 201);
-        border-radius: 3mm;
-        padding:1%;
-    }
-    .中原大學{
-        float: left;
-        position: absolute;
-        top: 47cm;
-        left: 4cm;
-        transition: transform 1s ease;
-        color:black;
-    }
-    .中原大學:hover{
-        transform: scale(1.08);
-        background-color:rgb(173, 196, 201);
-        border-radius: 3mm;
-        padding:1%;
-    }
-    img.kimsen{
-        position:absolute;
-        text-align: right;
-        right:8cm;
-        border-radius: 3px;
-        box-shadow: 5px 5px 10px rgb(0, 0, 0);
-        top:42cm;
-    }
-    img.kimsen:hover{
-        transform: scale(1.08);
-        transition: transform 1s ease;
-        z-index: 3;
-    }
-    img.jitsin{
-        position:absolute;
-        text-align: right;
-        right:5cm;
-        top:42cm;
-        box-shadow: 5px 5px 10px rgb(0, 0, 0);
-        border-radius: 3px;
-    }
-    img.jitsin:hover{
-        transform: scale(1.08);
-        transition: transform 1s ease;
-        z-index: 5;
-    }
-    img.cycu{
-        position:absolute;
-        text-align: right;
-        right:1cm;
-        border-radius: 3px;
-        box-shadow: 5px 5px 10px rgb(0, 0, 0);
-        top:42cm;
-    }
-    img.cycu:hover{
-        transform: scale(1.08);
-        transition: transform 1s ease;
-        opacity: 1;
-        z-index: 5;
-    }
-</style>
-
 <body>
-    <img class="center" src="photobg.jpeg" alt="photobg"/> 
-    <div class="name">kiki</div>
+    <header>
+    <img class="center" src="image/photobg.jpeg" alt="photobg"/> 
     <div class="textlayer">
         Hello, welcome to my portfolio
     </div>
     <nav >
         <ul class="d-flex">
-            <li><a href="#topintroduction" style="font-family: marker felt, fantasy ;">introduction</a></li>&nbsp;
-            <li><a href="#educationspace" style="font-family: marker felt, fantasy ;">education</a></li>&nbsp;
-            <li><a href="#livespace" style="font-family: marker felt, fantasy;">live</a></li>&nbsp;
-            <li><a href="#experiencespace" style="font-family: marker felt, fantasy;">experiences</a></li>&nbsp;
-            <li><a href="#backgroundspace" style="font-family: marker felt, fantasy;">background </a></li>&nbsp;
-         
+            <li><a href="#topintroduction" style="font-family: marker felt, fantasy; color: rgb(87, 112, 87);">introduction</a></li>&nbsp;
+            <li><a href="#educationspace" style="font-family: marker felt, fantasy ; color: rgb(87, 112, 87);">education</a></li>&nbsp;
+            <li><a href="#skillspace" style="font-family: marker felt, fantasy;color: rgb(87, 112, 87); ">Skill</a></li>&nbsp;
+            <li><a href="#experiencespace" style="font-family: marker felt, fantasy;color: rgb(87, 112, 87);">experiences</a></li>&nbsp;
+            <li><a href="#backgroundspace" style="font-family: marker felt, fantasy;color: rgb(87, 112, 87);">background </a></li>&nbsp;
         </ul>
     </nav>
-         <!--第一區黑塊-->
-        <section class="up" id="topintroduction">
-            
-             <!--第一區灰灰-->
-            <div class="top">
-                <div class="topintro">
-                <div>
-                    <img src="kiki.jpg"  >
+</header>
+
+         <!--introduction-->
+        <article>
+        <div id="topintroduction" class="leftintro">
+                    <img src="image/kiki.jpg">
                 </div>
                 <div class="intro">
-                    <p style="font-size: 30px;">| WHO AM I |</p>
-              Sim Zi Qi / 2002.9.18 / Virgo / Information Management /  <br><br>
-              2002.9.18 <br><br>
-              Virgo <br><br>
-              Information Management<br><br>
-              Malaysia<br><br>
-         </div>
-      </div>
-        <!--第二區大背景-->
-        <section class="view">
-            <!--第二區紫灰塊-->
-            <div class="content">
-                <!--education-->
-                <div class="education" id="educationspace">
-                    <p>| Education |</p>
-                </div>
-                <div>
-                    <a href="https://sites.google.com/site/jingxinghuaxiao/" target="_blank"><p style="font-size: 7mm; text-align: left; "class="金星小學">金星小學  SJK(C)Kim Sen </p></a>
-                    <a href="https://www.jitsin-ind.edu.my/" target="_blank"><p style="font-size: 7mm; text-align: left; "class="日新獨鍾"> 日新獨立中學 Jit Sin Indenpendent High School </p></a>
-                    <a href="https://www1.cycu.edu.tw/" target="_blank"><p style="font-size: 7mm; text-align: left; "class="中原大學"> 中原大學 Chung Yuan Christian University</p></a>
-                </div>
-    <div class="picschool">
-       <img class="kimsen"  src="image/kimsen.webp" width="390cm" height="300cm">
-        <img class="jitsin" src="image/jitsin.png" width="390cm">
-        <img class="cycu" src="image/cycu.jpeg" width="390cm" height="310cm">
-    </section>
+                    <p style="font-size: 35px; font-family: Georgia, 'Times New Roman', Times, serif;" >| Info. |</p><br>
+                        Sim Zi Qi | 沈紫琪<br><br>
+                        2002.9.18 // Virgo <br><br>
+                        Information Management<br><br>
+                        Malaysia<br>
+        </article>
+                <aside class="reminder">
+                <h1 style="font-size:35px; font-family:'Times New Roman', Times, serif; font-style:italic; padding-top: 20px;">Reminder</h1>
+                <p class="reminder_h1">
+                    Smile<br>
+                    Work Out<br>
+                    Drink more water<br>
+                    Remember Why you Started<br>
+                    Spread love & Positive<br>
+                </p>
+                </aside>
 
+         <!--skills-->
+         <article class="skill">
+         <div id="skillspace">
+            <p style="font-family:'Times New Roman', Times, serif ;font-size: 35px;">| Skills |</p>
+            <ul class="skill_h1">
+                <li><div class="box"><div class="skillname">HTML</div><p style="font-size: 22px;
+                    color: lightgrey;">70%</p></div><div class="loading"><div id="sk1"></div></div></li>
+                <li><div class="box"><div class="skillname">HTML</div><p style="font-size: 22px;
+                    color: lightgrey;">85%</p></div><div class="loading"><div id="sk2"></div></div></li>
+                <li><div class="box"><div class="skillname">JAVA Script</div><p style="font-size: 22px;
+                    color: lightgrey;">72%</p></div><div class="loading"><div id="sk3"></div></div></li>
+                <li><div class="box"><div class="skillname">Word</div><p style="font-size: 22px;
+                    color: lightgrey;">86%</p></div><div class="loading"><div id="sk4"></div></div></li>
+                <li><div class="box"><div class="skillname">Canva</div><p style="font-size: 22px;
+                    color: lightgrey;">95%</p></div><div class="loading"><div id="sk5"></div></div></li>
+                <li><div class="box"><div class="skillname">Excel</div><p style="font-size: 22px;
+                    color: lightgrey;">70%</p></div><div class="loading"><div id="sk6"></div></div></li>
+            </ul> 
+        </div>
+    </article> 
+        
+        <!--education-->
+        <article>
+            <div class="education">
+                <div id="educationspace">
+                    <p style="font-family:'Times New Roman', Times, serif">| Education |</p><br>
+                    <a href="https://sites.google.com/site/jingxinghuaxiao/" target="_blank"><p style="font-size: 7mm; text-align: left; "class="金星小學">金星小學  SJK(C)Kim Sen </p></a><br>
+                    <a href="https://www.jitsin-ind.edu.my/" target="_blank"><p style="font-size: 7mm; text-align: left; "class="日新獨鍾"> 日新獨立中學 Jit Sin Indenpendent High School </p></a><br>
+                    <a href="https://www1.cycu.edu.tw/" target="_blank"><p style="font-size: 7mm; text-align: left; "class="中原大學"> 中原大學 Chung Yuan Christian University</p></a><br>
+                </div>
+            </div>
+                <aside class="picschool">
+                    <img class="kimsen"  src="image/kimsen.webp" width="390cm" height="300cm">
+                    <img class="jitsin" src="image/jitsin.png" width="390cm">
+                    <img class="cycu" src="image/cycu.jpeg" width="390cm" height="310cm">
+                </aside>
+        </article>
+        
+        <article>
+            <div class="timeline" id="experiencespace">
+                <p style="font-family:'Times New Roman', Times, serif; font-size: 35px;padding: 1cm;color: rgb(184, 188, 184);"> | Experience |</p>
+                <div class="container left">
+                  <div class="content">
+                    <h2>2019</h2>
+                    <p>高二升高三那年假期，因為無聊找了一家餐廳打工，也是人生中的第一份工作。拿到第一份薪水的感覺也不同，也為自己賺來的錢買了一個🎁。</p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h2>2020</h2>
+                    <p>高三畢業後也去了一家幼兒園當了老師，一開始以為教小孩子的工作很簡單，沒想到當幼教原來是多麼辛苦，小孩很可愛但也是小惡魔，不過我也從中學習了很多。</p>
+                  </div>
+                </div>
+                <div class="container left">
+                  <div class="content">
+                    <h2>2021</h2>
+                    <p>到大學後在學校找了份工讀，幫忙校友更新個人資料，製作卡片等等。由於需要幫助校友處理各種煩瑣的問題，所以也鍛鍊了不少應變能力及臨場反應。</p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h2>2022</h2>
+                    <p>寒假的時候，剛好聽說工廠兼職可以賺外快，就到工廠裡去兼職，才體驗到工作內容如同機器人一樣每天工作12小時，內容重複乏味，但一整天下來會感覺很充實。</p>
+                  </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                      <h2>2022</h2>
+                      <p>在大學上學期間，我也在一家餐廳兼職，幫忙備料，服務客人，原本完全不會下廚的我，也學會了不少料理知識。</p>
+                    </div>
+                  </div>
+              </div>
+        </article>
+        
+        <!--live-->
+        <article>
+            <div class="container1">
+                <div class="card">
+                    <div class="img">
+                        <img src="image/family.jpeg">
+                        <!-- one -->
+                    </div>
+                    <div class="top-text">
+                        <div class="name">
+                            ----Family----
+                        </div>
+                    </div>
+                    <div class="bottom-text">
+                        <div class="text">
+                            2021還記每年新年，我們家都會拍一張全家福，這張照片也已經是一年前了，
+                            那時候很幸福很快樂，家人在身邊，朋友在身邊，大家一起吃火鍋，拿紅包，去拜年。
+                            有說有笑，不知不覺我也已經一年沒回家了，好想念我的家人，也好想家。
+                        </div>
+                    </div>
+                </div>
+                <!-- two -->
+                <div class="card">
+                    <div class="img">
+                        <img src="image/activity.jpeg"  >
+                    </div>
+                    <div class="top-text">
+                        <div class="name">
+                            ----Activity----
+                        </div>
+                    </div>
+                    <div class="bottom-text">
+                        <div class="text">
+                           2019這是我在升高二時參加的活動，也是我參加過最有意義的活動。
+                            大家一起認真策劃活動的流程，細節。就為了讓整個活動順利舉辦，整整三天都睡不到三小時，
+                            雖然過程很累，但最後看到學員參加的開心，我也很開心自己能夠參與。
+                        </div>
+                    </div>
+                </div>
+                <!-- three -->
+                <div class="card">
+                    <div class="img">
+                        <img src="image/s3c4.jpeg" >
+                    </div>
+                    <div class="top-text">
+                        <div class="name">
+                            ----S3C4----
+                        </div>
+                    </div>
+                    <div class="bottom-text">
+                        <div class="text">
+                            2020這是高中的班聚，老師帶我們去吃烤肉！也是我們唯一一次，哈哈哈。
+                            那個時候的我們，每天去學校不是吃飯就是睡覺（他們罷了我沒有），什麼都不用顧慮，真的很快樂。
+                            看到現在大家為了自己的前途在努力，也㊗️大家一帆風順。
+                        </div>
+                    </div>
+                </div>
+                 <!-- four -->
+                 <div class="card">
+                    <div class="img">
+                        <img src="image/4dog.jpeg" >
+                    </div>
+                    <div class="top-text">
+                        <div class="name">
+                            ----Friend----
+                        </div>
+                    </div>
+                    <div class="bottom-text">
+                        <div class="text">
+                            2022年要出國留學前的照片，我們一起穿上校服送機，真的很丟臉，還準備了布條歡送～
+                            如今大家各奔東西，再也沒有機會可以一起瘋，畢業是終點也是起點，我們都將奔赴不同的人生。
+                           願我們在彼此看不見的世界裡熠熠生輝，頂峰中相見。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
 </body>
 </html>

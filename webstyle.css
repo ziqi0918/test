@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Allerta Stencil',"微軟正黑體";
+}
+
+body {
+    height: 2990px;
+    background-image: url("image/shadow.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    position: relative;
+}
+
+.d-flex{
+display: flex;
+}
+
+.textlayer{
+    color:rgb(119, 99, 99);
+    font-size:54px;
+    font-family:marker felt, fantasy;
+    position:absolute;
+    top:14cm;
+    left:10.5cm;
+    z-index: 2;
+    text-shadow:shadow1, shadow2, shadow3;
+    text-shadow: 4px 3px 0px rgb(243, 243, 243), 9px 8px 0px rgba(0, 0, 0, 0.15);
+    width: 18cm;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .05em solid;
+    animation: typing 5s steps(26),caret 1s steps(26) infinite;
+    
+}
+@keyframes typing {
+    from { width: 0 }
+  }
+
+@keyframes caret {
+    50% { border-color: transparent; }
+  }
+
+  
+img.center{
+      padding-left:3.5cm;
+      padding-right: 2.5cm;
+      padding-top: 0cm;
+      border-radius: 6cm;
+}
+nav{
+    text-align: center;
+    font-size: 27px;
+}
+nav ul{
+    margin:auto;
+    position:absolute;
+    left: 11.5cm;
+    top:16cm;
+}
+nav li{
+    list-style:none;
+    display:inline-block;
+}
+
+article{
+    float: left;
+    width: 65%;
+}
+aside {
+    float: right;
+    text-align: center;
+    width: 30%;
+}
+.reminder{
+    padding: 40px;
+    margin:30px;
+    border-radius: 1cm;
+    background-image: url("image/reminder.jpg");
+    background-size: cover;
+    width: 350px;
+    height:470px;
+}
+.reminder_h1{
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute;
+    text-align:left;
+    font-size: 28px;
+    font-style:italic;
+    line-height: 65px;
+
+}
+.leftintro
+{
+    background-color: rgb(212, 227, 216);
+    border-radius: 1cm;
+    margin: 30px;
+    padding:4cm;
+}
+.leftintro img{
+    border-radius: 5cm;
+    width: 200px;  
+}
+.intro{
+    position:relative;
+    left:13cm;
+    bottom:11cm;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.skill{
+    text-align: center;
+    padding-left:7cm;
+      padding-right: 2.5cm;
+      padding-bottom: 2cm;
+      border-radius: 30px;
+}
+.skill p {
+    position: absolute;
+    left:13cm;
+    color: rgb(231, 214, 213);
+}
+
+/*進度條*/
+.skill_h1{
+    list-style: none;
+    padding:50px;
+    background-color: #958b82;
+    border-radius: 50px;
+    opacity:unset;
+
+}
+.box{
+    display: flex;
+    justify-content:center;
+}
+
+.skillname{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(120, 83, 83);  
+    font-family: 'Times New Roman', Times, serif;  
+}
+.loading {
+    background-color: #dbccc1;
+    width: 500px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: #5f5750 2px solid;
+    overflow: hidden;
+    position: relative;
+    left:6cm;
+  }
+  
+#sk1 {
+    height:100%;
+    width: 100%;
+    background-color:#877a70;
+    animation: ski1 5s ease;
+    animation-iteration-count: infinite;
+}
+#sk2 {
+    height:100%;
+    width: 100%;
+    background-color:#877a70;
+    animation: ski1 5s ease;
+    animation-iteration-count: infinite;
+}
+#sk3 {
+    height:100%;
+    width: 100%;
+    background-color:#877a70;
+    animation: ski1 5s ease;
+    animation-iteration-count: infinite;
+}
+#sk4 {
+    height:100%;
+    width: 100%;
+    background-color:#877a70;
+    animation: ski1 5s ease;
+    animation-iteration-count: infinite;
+}
+#sk5 {
+   height:100%;
+    width: 100%;
+    background-color:#877a70;
+    animation: ski1 5s ease;
+    animation-iteration-count: infinite;
+}
+#sk6 {
+    height:100%;
+    width: 100%;
+    background-color:#877a70;
+    animation: ski1 5s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ski1 {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 80%;
+    }
+}
+@keyframes ski2 {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 70%;
+    }
+}
+@keyframes ski3 {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 72%;
+    }
+}
+@keyframes ski4 {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 86%;
+    }
+}
+@keyframes ski5 {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 95%;
+    }
+}
+@keyframes ski6 {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 70%;
+    }
+}
+.education{
+    padding:4cm;
+    font-size: 10mm; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+
+}
+.time{
+    border-right: #b17750 2px solid;
+    margin: 0 5px;
+}
+.金星小學{
+    float: left;
+    position: absolute;
+    transition: transform 1s ease;
+    color:black;
+}
+.金星小學:hover{
+    transform: scale(1.08);
+    background-color:rgb(234, 239, 214);
+    border-radius: 3mm;
+    padding:1%;
+}
+.日新獨鍾{
+    float: left;
+    position: absolute;
+    transition: transform 1s ease;
+    color:black;
+}
+.日新獨鍾:hover{
+    transform: scale(1.08);
+    background-color:rgb(242, 245, 197);
+    border-radius: 3mm;
+    padding:1%;
+}
+.中原大學{
+    float: left;
+    position: absolute;
+    transition: transform 1s ease;
+    color:black;
+}
+.中原大學:hover{
+    transform: scale(1.08);
+    background-color:rgb(250, 253, 227);
+    border-radius: 3mm;
+    padding:1%;
+}
+img.kimsen{
+    position:absolute;
+    text-align: right;
+    right:8cm;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    bottom:6cm;
+}
+img.kimsen:hover{
+    transform: scale(1.08);
+    transition: transform 1s ease;
+    z-index: 3;
+}
+img.jitsin{
+    position:absolute;
+    text-align: right;
+    right:5cm;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border-radius: 3px;
+    bottom:6cm;
+}
+img.jitsin:hover{
+    transform: scale(1.08);
+    transition: transform 1s ease;
+    z-index: 5;
+}
+img.cycu{
+    position:absolute;
+    text-align: right;
+    right:1cm;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    bottom:6cm;
+}
+img.cycu:hover{
+    transform: scale(1.08);
+    transition: transform 1s ease;
+    opacity: 1;
+    z-index: 5;
+}
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #696764;
+    text-align: center;
+    left: 20%;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: rgb(24, 22, 22);
+    top: 3cm;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -1px;
+  }
+  
+  .container {
+    padding: 20px 0px;
+    position: relative;
+    width: 50%;
+  }
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    right: -9px;
+    background-color: #9fc29e;
+    border: 2px solid #FFF;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .content:hover{
+    transform: scale(1.08);
+    border-radius: 3mm;
+}
+  
+  .right {
+    left: 50%;
+  }
+  
+  
+  .right::after {
+    left: -9px;
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: rgb(159, 159, 159);
+    position: relative;
+    border-radius: 10px;
+    transition: transform 1s ease;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .timeline::after {
+    left: 10px;
+    }
+    
+  
+  }
+  .container1{
+    width: 100%;
+    height: 500px;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.card{
+    height: 270px;
+    max-width: 350px;
+    margin: 0px 20px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.card:hover{
+    height:400px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.2);
+}
+.card .img{
+    height: 200px;
+    width: 100%;
+}
+.card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card .top-text{
+    padding-top: 5px;
+}
+.card .top-text .name{
+    font-size: 25px;
+    color: #514949;
+    text-align: center;
+}
+.card .bottom-text{
+    text-indent: 13em;
+    padding: 0 20px 0px 20px;
+    margin-top: 5px;
+     background-color: rgb(241, 235, 203);
+     visibility: hidden;
+     transition: 1s;
+}
+.card:hover .bottom-text{
+    opacity: 1;
+    visibility: visible;
+}
